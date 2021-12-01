@@ -29,5 +29,5 @@ jobs:
           arduino-cli core update-index
           arduino-cli core install "arduino:avr"
           arduino-cli core install "arduino:sam"
-          arduino-cli daemon &
+          arduino-cli daemon --daemonize --port 50051 --verbose &
           yarn run test
