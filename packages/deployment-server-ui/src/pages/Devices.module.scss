@@ -40,7 +40,7 @@
   transition: in 0.3s ease;
   color: transparent;
   border: solid 0.1em black;
-  padding: 0.05em 0.05em 0.05em;
+  padding: 0.05em;
 
   &.hovering {
     color: rgba(0, 0, 0, 0.5);
