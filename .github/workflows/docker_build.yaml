@@ -15,5 +15,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Build Demo
-        run: docker-compose build --no-cache demo
+      - name: Build Docker
+        run: docker-compose build --no-cache --parallel
